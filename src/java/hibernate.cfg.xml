@@ -10,17 +10,19 @@
         <property name="hibernate.show_sql">true</property>   
         <mapping class="entity.User" />  
         <mapping class="entity.Category" />  
-        <mapping class="entity.Model" />  
+        <!--        <mapping class="entity.Model" />  -->
         <mapping class="entity.Color" />  
-        <mapping class="entity.Storage" />  
+        <!--        <mapping class="entity.Storage" />  -->
+        <mapping class="entity.Brand" />  
         <mapping class="entity.Product_Condition" />     
         <mapping class="entity.Product" />   
         <mapping class="entity.Product_Status" />  
         <mapping class="entity.Cart" />  
         <mapping class="entity.City" />  
         <mapping class="entity.Address" />  
-        <mapping class="entity.Order_Status" />  
-        <mapping class="entity.Product_Order" />  
-        <mapping class="entity.Order_item" />  
+        <mapping class="entity.Size" />  
+        <!--        <mapping class="entity.Order_Status" />  -->
+        <!--        <mapping class="entity.Product_Order" />  -->
+        <!--        <mapping class="entity.Order_item" />  -->
     </session-factory>
 </hibernate-configuration>
